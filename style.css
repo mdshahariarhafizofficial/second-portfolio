@@ -9,6 +9,10 @@ body{
     max-width: 1320px;
     margin: 0 auto;
 }
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
 .float-left{
     float: left;
     width: 50%;
@@ -26,7 +30,7 @@ body{
 /* Main Style start */
 .header{
     background: url(img/header-bg.png) no-repeat center center;
-    padding: 70px;
+    padding: 70px 0;
 }
 .left-div{
     margin-top: 10%;
@@ -49,11 +53,109 @@ body{
     color: gray;
     margin-bottom: 30px;
 }
-.left-div a{
+.button{
     text-decoration: none;
     background: #EB4776;
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
     display: inline-block;
+}
+
+
+.bio{
+    padding: 70px 0;
+    background: url(img/biography-bg.png) no-repeat center center;
+}
+
+.bio-left-div img{
+    max-width: 100%; 
+}
+
+.bio-right-div{
+    margin-top: 160px;
+}
+.bio-right-div p{
+    color: gray;
+    margin-bottom: 30px;
+}
+.bio-right-div h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.latest-work img{
+    width: 100%;
+}
+.latest-work h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.latest-work{
+    padding: 70px 0;
+}
+
+.latest-work .div-1{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+.latest-work .div-2{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+.latest-work .div-3{
+    float: right;
+    width: 30%;
+}
+
+.bottom-part{
+    padding: 150px 0;
+    text-align: center;
+    background: url(img/footer-bg.png) no-repeat center center;
+}
+.bottom-container{
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.top-div h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.top-div h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+.top-div span{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.top-div p{
+    margin: 30px auto;
+    width: 600px;
+    
+}
+
+.g-div{
+    background: #EB4776;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+.g-div p{
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+}
+footer p{
+    color: rgb(126, 114, 114);
 }
